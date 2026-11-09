@@ -322,7 +322,6 @@ body {
 }
 
 @media only screen and (max-width: 1500px) and (orientation: portrait) {
-
     .rotateMessage {
         display: block;
     }
@@ -335,8 +334,8 @@ body {
     }
 }
 
-@media (max-width: 768px) and (orientation: landscape) {
+@media (max-width: 1000px) and (orientation: landscape) {
     html {
-        font-size: 10px !important;
+        font-size: 8px !important;
     }
 }
